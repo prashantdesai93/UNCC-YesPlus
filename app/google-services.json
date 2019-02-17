@@ -1,0 +1,62 @@
+{
+  "project_info": {
+    "project_number": "711665710001",
+    "firebase_url": "https://uncc-yplus.firebaseio.com",
+    "project_id": "uncc-yplus",
+    "storage_bucket": "uncc-yplus.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:711665710001:android:f12dc9de5374cb01",
+        "android_client_info": {
+          "package_name": "com.ideas2app.uncc_yesplus"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "711665710001-5a96tvt94smc82073c0hukv269khofmd.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.ideas2app.uncc_yesplus",
+            "certificate_hash": "85aab1c0924cdddee3a5161e3c8eeb19a0b5cddc"
+          }
+        },
+        {
+          "client_id": "711665710001-t53v4i9qdkg4u0b8fggpf7sj7jrpdau0.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCLtwnnEK4LW0bZXyrtzB8LttN-1HK404g"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "711665710001-t53v4i9qdkg4u0b8fggpf7sj7jrpdau0.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "711665710001-m1t1d3j9lh1dbue73juefbnmec88dgeu.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.ideas2app.UNCC-YesPlus"
+              }
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

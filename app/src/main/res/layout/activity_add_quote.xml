@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorSpalshBack"
+    tools:context="com.ideas2app.uncc_yesplus.AddQuoteActivity">
+
+    <android.support.design.widget.AppBarLayout
+        android:id="@+id/appBar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:theme="@style/AppTheme.AppBarOverlay">
+
+        <android.support.v7.widget.Toolbar
+            android:id="@+id/toolbar"
+            android:layout_width="match_parent"
+            android:layout_height="?attr/actionBarSize"
+            android:background="#d1d2d1"
+            app:popupTheme="@style/AppTheme.PopupOverlay" >
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:src="@drawable/yesplus_logo_top"/>
+        </android.support.v7.widget.Toolbar>
+
+    </android.support.design.widget.AppBarLayout>
+
+    <TextView
+    android:id="@+id/tvAuthor"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_below="@+id/appBar"
+    android:layout_margin="20dp"
+    android:text="@string/tvAuthorLabel"
+    android:textColor="@color/cardview_light_background" />
+
+    <EditText
+        android:id="@+id/etAuthor"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/appBar"
+        android:layout_alignBaseline="@+id/tvAuthor"
+        android:layout_alignBottom="@+id/tvAuthor"
+        android:textColor="#a2a3a1"
+        android:layout_toEndOf="@+id/tvAuthor"
+        android:ems="10"
+        android:inputType="textPersonName" />
+
+    <TextView
+        android:id="@+id/tvQuote"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/tvAuthor"
+        android:layout_below="@+id/etAuthor"
+        android:layout_marginTop="17dp"
+        android:text="@string/tvQuoteLabel"
+        android:textColor="@color/cardview_light_background" />
+
+    <EditText
+        android:id="@+id/etQuote"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/tvQuote"
+        android:layout_below="@+id/tvQuote"
+        android:textColor="#a2a3a1"
+        android:layout_marginEnd="15dp"
+        android:layout_marginTop="15dp"
+        android:ems="10"
+        android:inputType="textMultiLine" />
+
+    <Button
+        android:id="@+id/btnAddQuote"
+        android:layout_width="120dp"
+        android:layout_height="wrap_content"
+        android:layout_alignEnd="@+id/etQuote"
+        android:layout_below="@+id/etQuote"
+        android:layout_marginTop="18dp"
+        android:background="@drawable/box_shape"
+        android:text="Add"
+        android:textColor="#a2a3a1" />
+
+    <Button
+        android:id="@+id/btnQuoteCancel"
+        android:layout_width="120dp"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/btnAddQuote"
+        android:layout_alignBottom="@+id/btnAddQuote"
+        android:layout_alignStart="@+id/etQuote"
+        android:background="@drawable/box_shape"
+        android:text="Cancel"
+        android:textColor="#a2a3a1" />
+</RelativeLayout>
